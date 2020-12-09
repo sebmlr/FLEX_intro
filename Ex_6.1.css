@@ -1,0 +1,52 @@
+
+body { 
+    margin: 0; padding: 0; border: 0; color: white; height: 100vh;
+}
+header{
+    background-color: rgb(18, 211, 137);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+ ul{
+    background-color: rgb(34, 145, 235);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    margin: 0; 
+ }
+ li{
+     width: 20%;
+ }
+ article{
+    background-color: rgb(118, 48, 184);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+
+
+ footer{
+    background-color: rgb(212, 100, 9);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ @media all and (max-width: 600px){
+    ul{
+        background-color: rgb(34, 81, 235);
+        flex-direction: column;
+        height: 100vh;
+     } 
+ }
